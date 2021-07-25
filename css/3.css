@@ -1,0 +1,38 @@
+/* VARIABLES */
+
+:root {
+    --primary-color: #677a5c;
+    --primary-color-half: #677a5c72;
+    --home-color: #677a5c;
+    --secondary-color: #515d49;
+    --font-color: #bbb;
+    --bg-color: #000;
+    --heading-color: rgba(255, 255, 255, 0.05);
+    --card-bg-color: rgba(20, 20, 20, 0.6);
+    --loader-bg-color: #151515;
+    --overlay-color: rgba(0, 0, 0, 0.3);
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+    --dark-image: 0.8;
+}
+
+/* YEET */
+
+.mainBod.slen-a::before {
+    background-image: url("/images/slender-bck-a.png");
+}
+.mainBod.slen-b::before {
+    background-image: url("/images/slender-bck-b.png");
+}
+.mainBod.slen-c::before {
+    background-image: url("/images/slender-bck-c.png");
+}
+.mainBod.slen-d::before {
+    background-image: url("/images/slender-bck-d.png");
+}
+.mainBod.slen-e::before {
+    background-image: url("/images/slender-bck-e.png");
+}

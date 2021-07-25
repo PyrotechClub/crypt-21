@@ -1,0 +1,55 @@
+/* VARIABLES */
+
+:root {
+    --primary-color: #c6661b;
+    --primary-color-half: #aa5d1e8b;
+    --home-color: #c6661b;
+    --secondary-color: #aa5c1e;
+    --font-color: #bbb;
+    --bg-color: #000;
+    --heading-color: rgba(255, 255, 255, 0.05);
+    --card-bg-color: rgba(20, 20, 20, 0.6);
+    --loader-bg-color: #151515;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+    --dark-image: 0.8;
+}
+
+/* YEET */
+
+.mainBod::before {
+    background-image: url("/images/warning-bck.gif");
+}
+
+.img-logo {
+    height: 400px !important;
+    width: auto !important;
+    opacity: 0.5;
+}
+
+.center {
+    padding: 0px !important;
+}
+
+.center h2,
+.center h3,
+.center h4 {
+    font-family: 'open-sans', sans-serif;
+    text-transform: uppercase !important;
+}
+
+hr.section-hr {
+    border-color: var(--home-color) !important;
+}
+
+.at {
+    color: var(--home-color);
+}
+
+.center h4 {
+    color: var(--home-color) !important;
+}

@@ -1,0 +1,51 @@
+/* VARIABLES */
+
+:root {
+    --primary-color: #7d519d;
+    --primary-color-half: #5b326374;
+    --home-color: #7d519d;
+    --secondary-color: #5b3263;
+    --font-color: #bbb;
+    --bg-color: #000;
+    --heading-color: rgba(255, 255, 255, 0.05);
+    --card-bg-color: rgba(20, 20, 20, 0.5);
+    --loader-bg-color: #151515;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+    --dark-image: 0.8;
+    --red-text: #7d519d;
+}
+
+/* YEET */
+
+.mainBod::before {
+    background-image: url("/images/fnaf-bg.png");
+}
+
+.mainBod {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+.scare div{
+    display: none;
+}
+
+.scare.freddy::before {
+    background-image: url("/images/freddy.gif");
+}
+
+.scare.bonnie::before {
+    background-image: url("/images/bonnie.gif");
+}
+
+.scare.chica::before {
+    background-image: url("/images/chica.gif");
+}
+
+.scare.foxy::before {
+    background-image: url("/images/foxy.gif");
+}

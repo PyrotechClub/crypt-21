@@ -1,0 +1,7 @@
+:root {
+    --overlay-color: rgba(0, 0, 0, 0.3);
+}
+
+.mainBod::before {
+    background-image: url("/images/back-dash.jpg");
+}

@@ -1,0 +1,172 @@
+/* VARIABLES */
+
+:root {
+    --primary-color: #0b669f;
+    --primary-color-half: #0b669f87;
+    --home-color: #0b669f;
+    --secondary-color: #045485;
+    --font-color: #bbb;
+    --bg-color: #000;
+    --heading-color: rgba(255, 255, 255, 0.05);
+    --card-bg-color: rgba(20, 20, 20, 0.5);
+    --loader-bg-color: #151515;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+    --dark-image: 0.8;
+    --red-text: #045485;
+}
+
+/* SHOP */
+
+.mainBod::before {
+    background-image: url("/images/shop-back.jpg");
+}
+
+.inv p:hover span {
+    color: var(--primary-color);
+}
+
+.cards {
+    background-color: transparent;
+    width: 100%;
+    perspective: 1000px;
+    transition: 0.25s;
+    cursor: pointer;
+    animation: up-down 4s infinite;
+    -webkit-animation: up-down 4s infinite;
+    -moz-animation: up-down 4s infinite;
+    -o-animation: up-down 4s infinite;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.card-front,
+.card-back {
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 0.25s;
+}
+
+.card-thing {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.card-back {
+    background-image: url("/images/cards-crypt-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.25s;
+    height: inherit;
+    transform: rotateY(180deg);
+    padding-top: 55%;
+    height: 540px;
+    color: white;
+}
+
+.card-back.scp-bck {
+    background-image: url("/images/scp-cards-crypt.png");
+}
+
+.card-back.fnaf-bck {
+    background-image: url("/images/fnaf-cards-crypt.png");
+}
+
+.card-back.slenderman-bck {
+    background-image: url("/images/slenderman-cards-crypt.png");
+}
+
+.card-back.undertale-bck {
+    background-image: url("/images/undertale-cards-crypt.png");
+}
+
+.card-back.petscop-bck {
+    background-image: url("/images/petscop-cards-crypt.png");
+}
+
+.invalid {
+    filter: grayscale(75%) brightness(75%);
+}
+
+.scp .button {
+    background-color: #e68230 !important;
+}
+
+.scp .button:hover {
+    background-color: #c76515 !important;
+    box-shadow: 0px 4px 8px 0px #bd641b9a !important;
+}
+
+.scp .button:disabled {
+    background-color: #c76515 !important;
+}
+
+.fnaf .button {
+    background-color: #5b3263 !important;
+}
+
+.fnaf .button:hover {
+    background-color: #7d519d !important;
+    box-shadow: 0px 4px 8px 0px #5b326374 !important;
+}
+
+.fnaf .button:disabled {
+    background-color: #7d519d !important;
+}
+
+.slenderman .button {
+    background-color: #515d49 !important;
+}
+
+.slenderman .button:hover {
+    background-color: #677a5c !important;
+    box-shadow: 0px 4px 8px 0px #677a5c72 !important;
+}
+
+.slenderman .button:disabled {
+    background-color: #677a5c !important;
+}
+
+.petscop .button {
+    background-color: #9d1a5b !important;
+}
+
+.petscop .button:hover {
+    background-color: #C22674 !important;
+    box-shadow: 0px 4px 8px 0px #9d175a79 !important;
+}
+
+.petscop .button:disabled {
+    background-color: #C22674 !important;
+}
+
+.undertale .button {
+    background-color: #1b1b1b !important;
+}
+
+.undertale .button:hover {
+    background-color: #191919 !important;
+    box-shadow: 0px 4px 8px 0px #1b1b1b68 !important;
+}
+
+.undertale .button:disabled {
+    background-color: #191919 !important;
+}
+
+.cards:hover .card-thing {
+    transform: rotateY(180deg);
+}

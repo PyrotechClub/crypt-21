@@ -1,0 +1,30 @@
+/* VARIABLES */
+
+:root {
+    --primary-color: #0b669f;
+    --primary-color-half: #0b669f87;
+    --home-color: #0b669f;
+    --secondary-color: #045485;
+    --font-color: #bbb;
+    --bg-color: #000;
+    --heading-color: rgba(255, 255, 255, 0.05);
+    --card-bg-color: rgba(20, 20, 20, 0.6);
+    --loader-bg-color: #151515;
+    --overlay-color: rgba(0, 0, 0, 0.3);
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+    --dark-image: 0.8;
+}
+
+/* YEET */
+
+.mainBod::before {
+    background-image: url("/images/zero-bck.png");
+}
+
+.mainBod {
+    background-color: rgba(0,0,0,0.2) !important;
+}
