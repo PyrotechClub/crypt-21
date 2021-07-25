@@ -111,7 +111,7 @@ $points = $result[0]??null;
                     <p class="inv"><b>Inventory:</b><span> --</span></p>
                     <?php endif ?>
                     <p class="time-left">
-                        <b>The Hunt Ends In:</b><br>
+                        <b>The Hunt starts in:</b><br>
                         <span id="days"></span> :
                         <span id="hours"></span> :
                         <span id="mins"></span> :
