@@ -1,6 +1,10 @@
 # Crypt@trix 21.0
 This repository contains the backend as well as the frontend for the web platform used for crypt@trix at ordin@trix 21.0.
 
+You can import the table structure from users.sql
+
+To run the platform locally, you would require xampp with apache and mysql.
+
 # Pull Request Log
 
 All pull request merged will be logged here along wiith credits
