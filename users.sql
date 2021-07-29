@@ -39,7 +39,7 @@ CREATE TABLE `users` (
   `points` int(11) NOT NULL,
   `hintca` tinyint(1) NOT NULL,
   `htmlno` int(11) NOT NULL,
-  `timest` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `timest` timestamp DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `proceed` tinyint(1) NOT NULL,
   `themeno` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
