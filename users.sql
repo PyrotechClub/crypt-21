@@ -49,7 +49,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `school`, `email`, `username`, `password`, `lvl`, `points`, `hintca`, `htmlno`, `timest`, `proceed`, `themeno`) VALUES
-(1172, 'Pushan Banerjee', 'The Mother\'s International School', 'pushanban@gmail.com', 'nerdy', '$2y$10$eEMPhFwvZ67ounuwksP2x.cuwidg/wRwSdebkaRqLyDv69eQlgL8O', 0, 0, 1, 0, '2021-07-23 01:32:03', 1, 0);
+(1, 'Pushan Banerjee', 'The Mother\'s International School', 'pushanban@gmail.com', 'nerdy', '$2y$10$eEMPhFwvZ67ounuwksP2x.cuwidg/wRwSdebkaRqLyDv69eQlgL8O', 0, 0, 1, 0, '2021-07-23 01:32:03', 1, 0);
 
 --
 -- Indexes for dumped tables
@@ -71,7 +71,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1357;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
